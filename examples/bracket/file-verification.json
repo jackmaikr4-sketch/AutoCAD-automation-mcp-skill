@@ -1,0 +1,36 @@
+{
+  "stl": {
+    "triangles": 634,
+    "bounds": [
+      119.999999,
+      79.999999,
+      67.999999
+    ],
+    "closed_manifold_edges": true,
+    "mesh_volume": 130629.00190770879,
+    "native_volume": 130586.08881569224,
+    "mesh_volume_error_percent": 0.03286191692065692
+  },
+  "pdf": {
+    "pages": 1,
+    "vector_paths": 329
+  },
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "nb_frames": "609"
+      }
+    ],
+    "format": {
+      "duration": "60.900000",
+      "size": "3309936"
+    }
+  },
+  "dwg_header": "AC1032",
+  "passed": true
+}

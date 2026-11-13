@@ -1,0 +1,146 @@
+[
+  {
+    "hole": 1,
+    "axis": "z",
+    "origin": [
+      15,
+      15,
+      0
+    ],
+    "height": 8,
+    "radius": 4.99,
+    "interferes": false
+  },
+  {
+    "hole": 1,
+    "axis": "z",
+    "origin": [
+      15,
+      15,
+      0
+    ],
+    "height": 8,
+    "radius": 5.01,
+    "interferes": true
+  },
+  {
+    "hole": 2,
+    "axis": "z",
+    "origin": [
+      105,
+      15,
+      0
+    ],
+    "height": 8,
+    "radius": 4.99,
+    "interferes": false
+  },
+  {
+    "hole": 2,
+    "axis": "z",
+    "origin": [
+      105,
+      15,
+      0
+    ],
+    "height": 8,
+    "radius": 5.01,
+    "interferes": true
+  },
+  {
+    "hole": 3,
+    "axis": "z",
+    "origin": [
+      15,
+      65,
+      0
+    ],
+    "height": 8,
+    "radius": 4.99,
+    "interferes": false
+  },
+  {
+    "hole": 3,
+    "axis": "z",
+    "origin": [
+      15,
+      65,
+      0
+    ],
+    "height": 8,
+    "radius": 5.01,
+    "interferes": true
+  },
+  {
+    "hole": 4,
+    "axis": "z",
+    "origin": [
+      105,
+      65,
+      0
+    ],
+    "height": 8,
+    "radius": 4.99,
+    "interferes": false
+  },
+  {
+    "hole": 4,
+    "axis": "z",
+    "origin": [
+      105,
+      65,
+      0
+    ],
+    "height": 8,
+    "radius": 5.01,
+    "interferes": true
+  },
+  {
+    "hole": 5,
+    "axis": "y",
+    "origin": [
+      35,
+      72,
+      38
+    ],
+    "height": 8,
+    "radius": 4.99,
+    "interferes": false
+  },
+  {
+    "hole": 5,
+    "axis": "y",
+    "origin": [
+      35,
+      72,
+      38
+    ],
+    "height": 8,
+    "radius": 5.01,
+    "interferes": true
+  },
+  {
+    "hole": 6,
+    "axis": "y",
+    "origin": [
+      85,
+      72,
+      38
+    ],
+    "height": 8,
+    "radius": 4.99,
+    "interferes": false
+  },
+  {
+    "hole": 6,
+    "axis": "y",
+    "origin": [
+      85,
+      72,
+      38
+    ],
+    "height": 8,
+    "radius": 5.01,
+    "interferes": true
+  }
+]

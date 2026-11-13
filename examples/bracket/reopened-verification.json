@@ -1,0 +1,53 @@
+{
+  "count": 1,
+  "solid_count": 1,
+  "invalid_solids": [],
+  "entities": [
+    {
+      "handle": "85",
+      "type": "Solid3d",
+      "layer": "BRACKET_SOLID",
+      "color": 256,
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "max": [
+        120,
+        80,
+        68
+      ],
+      "size": [
+        120,
+        80,
+        68
+      ],
+      "volume": 130586.08881569214,
+      "centroid": [
+        59.97989576563279,
+        55.5316472388641,
+        18.6667460825865
+      ],
+      "valid": true
+    }
+  ],
+  "units": "Millimeters",
+  "duplicate_check": "exact type+layer+bounds candidates only; confirm geometry before removing",
+  "confirmed_duplicates": [],
+  "min": [
+    0,
+    0,
+    0
+  ],
+  "max": [
+    120,
+    80,
+    68
+  ],
+  "size": [
+    120,
+    80,
+    68
+  ]
+}

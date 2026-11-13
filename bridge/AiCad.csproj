@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><AutoCADDir Condition="'$(AutoCADDir)' == ''">C:/Program Files/Autodesk/AutoCAD 2026</AutoCADDir><TargetFramework>net8.0-windows</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable><OutputPath>../bin/</OutputPath><AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath><AssemblyName>AiCadBridge</AssemblyName><EnableDynamicLoading>true</EnableDynamicLoading></PropertyGroup>
+ <ItemGroup>
+  <Reference Include="AcMgd"><HintPath>$(AutoCADDir)/acmgd.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="AcDbMgd"><HintPath>$(AutoCADDir)/acdbmgd.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="AcCoreMgd"><HintPath>$(AutoCADDir)/accoremgd.dll</HintPath><Private>false</Private></Reference>
+  <Reference Include="AcDbMgdBrep"><HintPath>$(AutoCADDir)/acdbmgdbrep.dll</HintPath><Private>false</Private></Reference>
+ </ItemGroup>
+</Project>

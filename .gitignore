@@ -1,0 +1,17 @@
+node_modules/
+tools/
+bin/
+bridge/obj/
+artifacts/
+output/
+delivery/
+__pycache__/
+*.pyc
+*.bak
+*.dwl
+*.dwl2
+.env
+.env.*
+config.json
+config.toml
+*.log

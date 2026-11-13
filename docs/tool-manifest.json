@@ -1,0 +1,3030 @@
+{
+  "tools": [
+    {
+      "name": "connect_autocad",
+      "description": "Control or inspect the real local AutoCAD 2026 session. No simulated results.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "disconnect_autocad",
+      "description": "Control or inspect the real local AutoCAD 2026 session. No simulated results.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "get_autocad_status",
+      "description": "Control or inspect the real local AutoCAD 2026 session. No simulated results.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "get_active_document",
+      "description": "Control or inspect the real local AutoCAD 2026 session. No simulated results.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "create_new_drawing",
+      "description": "Control or inspect the real local AutoCAD 2026 session. No simulated results.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "regenerate_drawing",
+      "description": "Control or inspect the real local AutoCAD 2026 session. No simulated results.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "undo_operation",
+      "description": "Control or inspect the real local AutoCAD 2026 session. No simulated results.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "api_info",
+      "description": "Control or inspect the real local AutoCAD 2026 session. No simulated results.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "checkpoint",
+      "description": "Control or inspect the real local AutoCAD 2026 session. No simulated results.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "stop_recording",
+      "description": "Control or inspect the real local AutoCAD 2026 session. No simulated results.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "open_drawing",
+      "description": "Open an existing DWG inside the configured project output/artifacts directories.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "save_drawing",
+      "description": "Write a real CAD file; existing output requires explicit overwrite.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "overwrite": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "export_dwg",
+      "description": "Write a real CAD file; existing output requires explicit overwrite.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "overwrite": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "export_dxf",
+      "description": "Write a real CAD file; existing output requires explicit overwrite.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "overwrite": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "export_pdf",
+      "description": "Write a real CAD file; existing output requires explicit overwrite.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "overwrite": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "close_drawing",
+      "description": "Close current drawing; refuse unsaved changes unless discard is explicit.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "discard": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "execute_command",
+      "description": "Advanced raw AutoCAD command. Completion is not geometric verification; inspect results afterwards.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "command": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 16000
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "draw_line",
+      "description": "Create an exact native line using WCS millimetre coordinates.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "start": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/start/items/0"
+              },
+              {
+                "$ref": "#/properties/start/items/0"
+              }
+            ]
+          },
+          "end": {
+            "$ref": "#/properties/start"
+          }
+        },
+        "required": [
+          "start",
+          "end"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "draw_polyline",
+      "description": "Create a native XY polyline or interpolated cubic spline from WCS points.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "points": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 3,
+              "items": [
+                {
+                  "type": "number"
+                },
+                {
+                  "$ref": "#/properties/points/items/items/0"
+                },
+                {
+                  "$ref": "#/properties/points/items/items/0"
+                }
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 1000
+          },
+          "closed": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "points"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "draw_spline",
+      "description": "Create a native XY polyline or interpolated cubic spline from WCS points.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "points": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 3,
+              "items": [
+                {
+                  "type": "number"
+                },
+                {
+                  "$ref": "#/properties/points/items/items/0"
+                },
+                {
+                  "$ref": "#/properties/points/items/items/0"
+                }
+              ]
+            },
+            "minItems": 2,
+            "maxItems": 1000
+          },
+          "closed": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "points"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "draw_circle",
+      "description": "Create a native circle, radius in mm.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "center": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              }
+            ]
+          },
+          "radius": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "normal": {
+            "$ref": "#/properties/center"
+          }
+        },
+        "required": [
+          "center",
+          "radius"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "draw_arc",
+      "description": "Create an arc; angles in degrees measured in the curve plane.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "center": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              }
+            ]
+          },
+          "radius": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "start_angle": {
+            "$ref": "#/properties/center/items/0"
+          },
+          "end_angle": {
+            "$ref": "#/properties/center/items/0"
+          },
+          "normal": {
+            "$ref": "#/properties/center"
+          }
+        },
+        "required": [
+          "center",
+          "radius",
+          "start_angle",
+          "end_angle"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "draw_rectangle",
+      "description": "Create a closed XY rectangle at minimum corner.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "origin": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              }
+            ]
+          },
+          "width": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "height": {
+            "$ref": "#/properties/width"
+          }
+        },
+        "required": [
+          "origin",
+          "width",
+          "height"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "draw_polygon",
+      "description": "Create a regular polygon by circumradius.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "center": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              }
+            ]
+          },
+          "sides": {
+            "type": "integer",
+            "minimum": 3,
+            "maximum": 1000
+          },
+          "radius": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "rotation": {
+            "$ref": "#/properties/center/items/0"
+          }
+        },
+        "required": [
+          "center",
+          "sides",
+          "radius"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "draw_ellipse",
+      "description": "Create a native ellipse from major semiaxis vector and minor/major ratio.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "center": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              }
+            ]
+          },
+          "major_axis": {
+            "$ref": "#/properties/center"
+          },
+          "ratio": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 1
+          },
+          "normal": {
+            "$ref": "#/properties/center"
+          }
+        },
+        "required": [
+          "center",
+          "major_axis",
+          "ratio"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "draw_hatch",
+      "description": "Fill a closed boundary with a native associative hatch.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          },
+          "pattern": {
+            "type": "string",
+            "default": "SOLID"
+          }
+        },
+        "required": [
+          "handles"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "offset_geometry",
+      "description": "Offset a planar curve using AutoCAD geometric kernel.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          },
+          "distance": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "handle",
+          "distance"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "trim_geometry",
+      "description": "Split a curve at native curve parameters and retain one ordered segment.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          },
+          "parameters": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 1
+          },
+          "keep_segment": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "handle",
+          "parameters",
+          "keep_segment"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "extend_geometry",
+      "description": "Extend a curve to an exact WCS point on its extension.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          },
+          "point": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/point/items/0"
+              },
+              {
+                "$ref": "#/properties/point/items/0"
+              }
+            ]
+          },
+          "at_start": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "handle",
+          "point"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "mirror_geometry",
+      "description": "Mirror selected entities about a line.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          },
+          "start": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/start/items/0"
+              },
+              {
+                "$ref": "#/properties/start/items/0"
+              }
+            ]
+          },
+          "end": {
+            "$ref": "#/properties/start"
+          },
+          "copy": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "handles",
+          "start",
+          "end"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "rotate_geometry",
+      "description": "Rotate entities by degrees about a WCS axis; default axis is Z.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          },
+          "center": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              }
+            ]
+          },
+          "axis": {
+            "$ref": "#/properties/center"
+          },
+          "angle": {
+            "$ref": "#/properties/center/items/0"
+          },
+          "copy": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "handles",
+          "center",
+          "angle"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "rotate_3d",
+      "description": "Rotate entities by degrees about a WCS axis; default axis is Z.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          },
+          "center": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              }
+            ]
+          },
+          "axis": {
+            "$ref": "#/properties/center"
+          },
+          "angle": {
+            "$ref": "#/properties/center/items/0"
+          },
+          "copy": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "handles",
+          "center",
+          "angle"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "scale_geometry",
+      "description": "Uniformly scale selected native entities about a point.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          },
+          "center": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              }
+            ]
+          },
+          "factor": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "copy": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "handles",
+          "center",
+          "factor"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "array_geometry",
+      "description": "Create a rectangular array of independent editable copies, maximum 1000 positions.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          },
+          "rows": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "columns": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "dx": {
+            "type": "number"
+          },
+          "dy": {
+            "$ref": "#/properties/dx"
+          }
+        },
+        "required": [
+          "handles",
+          "rows",
+          "columns",
+          "dx",
+          "dy"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "fillet_geometry",
+      "description": "Modify an XY corner formed by two straight lines. Supply actual shared corner and retained endpoints; radius/distance in mm.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "first": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          },
+          "second": {
+            "$ref": "#/properties/first"
+          },
+          "corner": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/corner/items/0"
+              },
+              {
+                "$ref": "#/properties/corner/items/0"
+              }
+            ]
+          },
+          "keep_first": {
+            "$ref": "#/properties/corner"
+          },
+          "keep_second": {
+            "$ref": "#/properties/corner"
+          },
+          "radius": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "distance": {
+            "$ref": "#/properties/radius"
+          }
+        },
+        "required": [
+          "first",
+          "second",
+          "corner",
+          "keep_first",
+          "keep_second"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "chamfer_geometry",
+      "description": "Modify an XY corner formed by two straight lines. Supply actual shared corner and retained endpoints; radius/distance in mm.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "first": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          },
+          "second": {
+            "$ref": "#/properties/first"
+          },
+          "corner": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/corner/items/0"
+              },
+              {
+                "$ref": "#/properties/corner/items/0"
+              }
+            ]
+          },
+          "keep_first": {
+            "$ref": "#/properties/corner"
+          },
+          "keep_second": {
+            "$ref": "#/properties/corner"
+          },
+          "radius": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "distance": {
+            "$ref": "#/properties/radius"
+          }
+        },
+        "required": [
+          "first",
+          "second",
+          "corner",
+          "keep_first",
+          "keep_second"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "create_3d_box",
+      "description": "Create a native 3D solid from its minimum XYZ corner and exact dimensions.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "origin": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              }
+            ]
+          },
+          "length": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "width": {
+            "$ref": "#/properties/length"
+          },
+          "height": {
+            "$ref": "#/properties/length"
+          }
+        },
+        "required": [
+          "origin",
+          "length",
+          "width",
+          "height"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "create_3d_wedge",
+      "description": "Create a native 3D solid from its minimum XYZ corner and exact dimensions.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "origin": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              }
+            ]
+          },
+          "length": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "width": {
+            "$ref": "#/properties/length"
+          },
+          "height": {
+            "$ref": "#/properties/length"
+          }
+        },
+        "required": [
+          "origin",
+          "length",
+          "width",
+          "height"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "create_3d_cylinder",
+      "description": "Create a Z-aligned cylinder/cone at base centre. Cone defaults to zero top radius.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "origin": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              }
+            ]
+          },
+          "radius": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "height": {
+            "$ref": "#/properties/radius"
+          },
+          "top_radius": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "origin",
+          "radius",
+          "height"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "create_3d_cone",
+      "description": "Create a Z-aligned cylinder/cone at base centre. Cone defaults to zero top radius.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "origin": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              }
+            ]
+          },
+          "radius": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "height": {
+            "$ref": "#/properties/radius"
+          },
+          "top_radius": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "origin",
+          "radius",
+          "height"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "create_3d_sphere",
+      "description": "Create a native sphere at centre.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "origin": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              }
+            ]
+          },
+          "radius": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "required": [
+          "origin",
+          "radius"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "create_3d_torus",
+      "description": "Create a Z-axis torus at centre, major radius greater than minor radius.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "origin": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              }
+            ]
+          },
+          "major_radius": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "minor_radius": {
+            "$ref": "#/properties/major_radius"
+          }
+        },
+        "required": [
+          "origin",
+          "major_radius",
+          "minor_radius"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "extrude_3d",
+      "description": "Extrude a closed planar profile. Direction should be a unit vector; default Z. Source retained.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          },
+          "height": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "direction": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/direction/items/0"
+              },
+              {
+                "$ref": "#/properties/direction/items/0"
+              }
+            ]
+          }
+        },
+        "required": [
+          "handle",
+          "height"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "revolve_3d",
+      "description": "Revolve a closed profile around an explicit WCS axis. Source retained.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          },
+          "axis_point": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/axis_point/items/0"
+              },
+              {
+                "$ref": "#/properties/axis_point/items/0"
+              }
+            ]
+          },
+          "axis": {
+            "$ref": "#/properties/axis_point"
+          },
+          "angle": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 360
+          }
+        },
+        "required": [
+          "handle",
+          "axis_point",
+          "axis",
+          "angle"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "sweep_3d",
+      "description": "Sweep a closed profile along a native curve with automatic profile alignment.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          },
+          "path_handle": {
+            "$ref": "#/properties/handle"
+          }
+        },
+        "required": [
+          "handle",
+          "path_handle"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "loft_3d",
+      "description": "Loft a solid through ordered closed cross-section curves.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          }
+        },
+        "required": [
+          "handles"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "union_3d",
+      "description": "Native solid Boolean. First handle is result; later handles are tools. Transaction rolls back on error.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 2,
+            "maxItems": 1000
+          },
+          "delete_tools": {
+            "type": "boolean",
+            "default": true
+          }
+        },
+        "required": [
+          "handles"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "subtract_3d",
+      "description": "Native solid Boolean. First handle is result; later handles are tools. Transaction rolls back on error.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 2,
+            "maxItems": 1000
+          },
+          "delete_tools": {
+            "type": "boolean",
+            "default": true
+          }
+        },
+        "required": [
+          "handles"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "intersect_3d",
+      "description": "Native solid Boolean. First handle is result; later handles are tools. Transaction rolls back on error.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 2,
+            "maxItems": 1000
+          },
+          "delete_tools": {
+            "type": "boolean",
+            "default": true
+          }
+        },
+        "required": [
+          "handles"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "slice_3d",
+      "description": "Slice a solid using a WCS plane.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          },
+          "point": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/point/items/0"
+              },
+              {
+                "$ref": "#/properties/point/items/0"
+              }
+            ]
+          },
+          "normal": {
+            "$ref": "#/properties/point"
+          },
+          "keep_both": {
+            "type": "boolean",
+            "default": true
+          }
+        },
+        "required": [
+          "handle",
+          "point",
+          "normal"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "shell_3d",
+      "description": "Shell a solid. Face indices come from get_topology; negative thickness offsets inward.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          },
+          "indices": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "default": []
+          },
+          "thickness": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "handle",
+          "thickness"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "fillet_3d",
+      "description": "Fillet actual native solid edges from current get_topology indices.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          },
+          "indices": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 1
+          },
+          "radius": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "required": [
+          "handle",
+          "indices",
+          "radius"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "chamfer_3d",
+      "description": "Chamfer edges adjacent to the specified base face. Re-query topology after every edit.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          },
+          "indices": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 1
+          },
+          "face_index": {
+            "type": "integer"
+          },
+          "distance": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "other_distance": {
+            "$ref": "#/properties/distance"
+          }
+        },
+        "required": [
+          "handle",
+          "indices",
+          "face_index",
+          "distance"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "move_3d",
+      "description": "Translate selected native entities by an exact WCS displacement.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          },
+          "vector": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/vector/items/0"
+              },
+              {
+                "$ref": "#/properties/vector/items/0"
+              }
+            ]
+          },
+          "copy": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "handles",
+          "vector"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "mirror_3d",
+      "description": "Mirror native entities about a WCS plane.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          },
+          "point": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/point/items/0"
+              },
+              {
+                "$ref": "#/properties/point/items/0"
+              }
+            ]
+          },
+          "normal": {
+            "$ref": "#/properties/point"
+          },
+          "copy": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "handles",
+          "point",
+          "normal"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "add_dimension",
+      "description": "Create native linear/aligned dimension; blank text displays actual measurement.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "first": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/first/items/0"
+              },
+              {
+                "$ref": "#/properties/first/items/0"
+              }
+            ]
+          },
+          "second": {
+            "$ref": "#/properties/first"
+          },
+          "position": {
+            "$ref": "#/properties/first"
+          },
+          "angle": {
+            "$ref": "#/properties/first/items/0"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "first",
+          "second",
+          "position"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "add_linear_dimension",
+      "description": "Create native linear/aligned dimension; blank text displays actual measurement.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "first": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/first/items/0"
+              },
+              {
+                "$ref": "#/properties/first/items/0"
+              }
+            ]
+          },
+          "second": {
+            "$ref": "#/properties/first"
+          },
+          "position": {
+            "$ref": "#/properties/first"
+          },
+          "angle": {
+            "$ref": "#/properties/first/items/0"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "first",
+          "second",
+          "position"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "add_aligned_dimension",
+      "description": "Create native linear/aligned dimension; blank text displays actual measurement.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "first": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/first/items/0"
+              },
+              {
+                "$ref": "#/properties/first/items/0"
+              }
+            ]
+          },
+          "second": {
+            "$ref": "#/properties/first"
+          },
+          "position": {
+            "$ref": "#/properties/first"
+          },
+          "angle": {
+            "$ref": "#/properties/first/items/0"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "first",
+          "second",
+          "position"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "add_radius_dimension",
+      "description": "Create a native radius dimension from centre to chord point.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "center": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              },
+              {
+                "$ref": "#/properties/center/items/0"
+              }
+            ]
+          },
+          "point": {
+            "$ref": "#/properties/center"
+          },
+          "leader": {
+            "$ref": "#/properties/center/items/0"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "center",
+          "point"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "add_diameter_dimension",
+      "description": "Create a diameter dimension between opposite circle points.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "first": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/first/items/0"
+              },
+              {
+                "$ref": "#/properties/first/items/0"
+              }
+            ]
+          },
+          "second": {
+            "$ref": "#/properties/first"
+          },
+          "leader": {
+            "$ref": "#/properties/first/items/0"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "first",
+          "second"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "add_angular_dimension",
+      "description": "Create a native two-line angular dimension.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "first_start": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/first_start/items/0"
+              },
+              {
+                "$ref": "#/properties/first_start/items/0"
+              }
+            ]
+          },
+          "first_end": {
+            "$ref": "#/properties/first_start"
+          },
+          "second_start": {
+            "$ref": "#/properties/first_start"
+          },
+          "second_end": {
+            "$ref": "#/properties/first_start"
+          },
+          "position": {
+            "$ref": "#/properties/first_start"
+          },
+          "text": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "first_start",
+          "first_end",
+          "second_start",
+          "second_end",
+          "position"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "add_text",
+      "description": "Add native editable annotation text.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "position": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/position/items/0"
+              },
+              {
+                "$ref": "#/properties/position/items/0"
+              }
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "height": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "default": 3
+          },
+          "width": {
+            "$ref": "#/properties/height"
+          }
+        },
+        "required": [
+          "position",
+          "text"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "add_mtext",
+      "description": "Add native editable annotation text.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "position": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/position/items/0"
+              },
+              {
+                "$ref": "#/properties/position/items/0"
+              }
+            ]
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "height": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "default": 3
+          },
+          "width": {
+            "$ref": "#/properties/height"
+          }
+        },
+        "required": [
+          "position",
+          "text"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "create_layer",
+      "description": "Create or select a named drawing layer.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "color": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 255
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "set_layer",
+      "description": "Create or select a named drawing layer.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "color": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 255
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "set_line_type",
+      "description": "Assign an already-loaded linetype (for example Continuous).",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "handles",
+          "name"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "set_line_width",
+      "description": "Assign AutoCAD lineweight enum value, in hundredths of mm (for example 25).",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          },
+          "hundredths_mm": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "handles",
+          "hundredths_mm"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "set_color",
+      "description": "Set AutoCAD indexed colour; 256 means ByLayer.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          },
+          "color": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 256
+          }
+        },
+        "required": [
+          "handles",
+          "color"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "create_block",
+      "description": "Create a new native block definition from copies of selected entities.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "origin": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              },
+              {
+                "$ref": "#/properties/origin/items/0"
+              }
+            ]
+          }
+        },
+        "required": [
+          "handles",
+          "name",
+          "origin"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "insert_block",
+      "description": "Insert a native block reference.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "position": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/position/items/0"
+              },
+              {
+                "$ref": "#/properties/position/items/0"
+              }
+            ]
+          },
+          "scale": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "default": 1
+          },
+          "angle": {
+            "$ref": "#/properties/position/items/0"
+          }
+        },
+        "required": [
+          "name",
+          "position"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "get_entities",
+      "description": "Read real native entities, bounds, units, solid count and volumes. Includes conservative duplicate candidates.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "get_entity_count",
+      "description": "Read real native entities, bounds, units, solid count and volumes. Includes conservative duplicate candidates.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "get_drawing_bounds",
+      "description": "Read real native entities, bounds, units, solid count and volumes. Includes conservative duplicate candidates.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "inspect_drawing",
+      "description": "Read real native entities, bounds, units, solid count and volumes. Includes conservative duplicate candidates.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "inspect_3d_model",
+      "description": "Read real native entities, bounds, units, solid count and volumes. Includes conservative duplicate candidates.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "get_entity_properties",
+      "description": "Read native geometry, dimensions or current BREP face/edge indices.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          }
+        },
+        "required": [
+          "handle"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "get_entity_coordinates",
+      "description": "Read native geometry, dimensions or current BREP face/edge indices.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          }
+        },
+        "required": [
+          "handle"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "get_entity_dimensions",
+      "description": "Read native geometry, dimensions or current BREP face/edge indices.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          }
+        },
+        "required": [
+          "handle"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "get_3d_solid_information",
+      "description": "Read native geometry, dimensions or current BREP face/edge indices.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          }
+        },
+        "required": [
+          "handle"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "get_topology",
+      "description": "Read native geometry, dimensions or current BREP face/edge indices.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          }
+        },
+        "required": [
+          "handle"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "get_layer_information",
+      "description": "Read actual drawing layers and states.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "check_interference",
+      "description": "Read-only native solid intersection check for independent hole and clearance verification.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "first": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          },
+          "second": {
+            "$ref": "#/properties/first"
+          }
+        },
+        "required": [
+          "first",
+          "second"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "delete_entities",
+      "description": "Erase only explicitly selected handles inside a database transaction.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          }
+        },
+        "required": [
+          "handles"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "repair_entity",
+      "description": "Apply one bounded repair and return real geometry. Does not suppress errors.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "handle": {
+            "type": "string",
+            "pattern": "^[0-9A-Fa-f]+$"
+          },
+          "action": {
+            "type": "string",
+            "enum": [
+              "clean_solid",
+              "close_polyline"
+            ]
+          }
+        },
+        "required": [
+          "handle",
+          "action"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "export_stl",
+      "description": "Export selected native solids through AutoCAD STLOUT and verify an output file exists.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "handles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[0-9A-Fa-f]+$"
+            },
+            "minItems": 1,
+            "maxItems": 1000
+          },
+          "overwrite": {
+            "type": "boolean",
+            "default": false
+          }
+        },
+        "required": [
+          "path",
+          "handles"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "screenshot",
+      "description": "Capture or record the actual AutoCAD desktop; stored locally.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "export_image",
+      "description": "Capture or record the actual AutoCAD desktop; stored locally.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "start_recording",
+      "description": "Capture or record the actual AutoCAD desktop; stored locally.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "set_view",
+      "description": "Set an orthographic or isometric view without changing model geometry.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "view": {
+            "type": "string",
+            "enum": [
+              "top",
+              "front",
+              "side",
+              "isometric"
+            ]
+          },
+          "target": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": [
+              {
+                "type": "number"
+              },
+              {
+                "$ref": "#/properties/target/items/0"
+              },
+              {
+                "$ref": "#/properties/target/items/0"
+              }
+            ]
+          },
+          "height": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "required": [
+          "view"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "cancel_task",
+      "description": "Request cooperative cancellation between plan steps. Does not terminate AutoCAD or interrupt an atomic kernel operation.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "create_modeling_plan",
+      "description": "Persist a concrete AI-generated plan before any modeling. AI extracts dimensions and explicitly lists assumptions. References use $stepId.handles.0.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "request": {
+            "type": "string"
+          },
+          "assumptions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "pattern": "^[a-zA-Z][a-zA-Z0-9_]*$"
+                },
+                "tool": {
+                  "type": "string"
+                },
+                "args": {
+                  "type": "object",
+                  "additionalProperties": {}
+                },
+                "checks": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "path": {
+                        "type": "string"
+                      },
+                      "expected": {},
+                      "tolerance": {
+                        "type": "number",
+                        "minimum": 0
+                      }
+                    },
+                    "required": [
+                      "path"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "tool",
+                "args"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1,
+            "maxItems": 300
+          }
+        },
+        "required": [
+          "request",
+          "assumptions",
+          "steps"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "execute_modeling_plan",
+      "description": "Execute a saved plan once with per-step receipts, assertions and cooperative cancellation. Stops on error without blindly retrying writes.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "planId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "required": [
+          "planId"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    },
+    {
+      "name": "get_modeling_plan",
+      "description": "Read persisted plan, step results, checks and failure/cancellation state.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "planId": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "required": [
+          "planId"
+        ],
+        "additionalProperties": false,
+        "$schema": "http://json-schema.org/draft-07/schema#"
+      },
+      "execution": {
+        "taskSupport": "forbidden"
+      }
+    }
+  ]
+}
