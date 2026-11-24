@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-24",
+  "files": [
+    {
+      "path": "bridge/Commands.cs",
+      "beforeLines": 136,
+      "afterLines": 675,
+      "beforeMaxLine": 522,
+      "afterMaxLine": 288
+    },
+    {
+      "path": "scripts/acceptance-bracket.mjs",
+      "beforeLines": 44,
+      "afterLines": 249,
+      "beforeMaxLine": 557,
+      "afterMaxLine": 238
+    },
+    {
+      "path": "scripts/test-final-views.mjs",
+      "beforeLines": 12,
+      "afterLines": 61,
+      "beforeMaxLine": 376,
+      "afterMaxLine": 93
+    },
+    {
+      "path": "scripts/test-recovery.mjs",
+      "beforeLines": 29,
+      "afterLines": 128,
+      "beforeMaxLine": 510,
+      "afterMaxLine": 100
+    },
+    {
+      "path": "scripts/test-tools.mjs",
+      "beforeLines": 49,
+      "afterLines": 264,
+      "beforeMaxLine": 536,
+      "afterMaxLine": 100
+    },
+    {
+      "path": "scripts/verify-delivery.py",
+      "beforeLines": 19,
+      "afterLines": 74,
+      "beforeMaxLine": 321,
+      "afterMaxLine": 90
+    },
+    {
+      "path": "src/contracts.mjs",
+      "beforeLines": 62,
+      "afterLines": 310,
+      "beforeMaxLine": 278,
+      "afterMaxLine": 166
+    },
+    {
+      "path": "src/server.mjs",
+      "beforeLines": 44,
+      "afterLines": 312,
+      "beforeMaxLine": 863,
+      "afterMaxLine": 265
+    },
+    {
+      "path": "src/worker.py",
+      "beforeLines": 163,
+      "afterLines": 430,
+      "beforeMaxLine": 378,
+      "afterMaxLine": 200
+    },
+    {
+      "path": "tests/contracts.test.mjs",
+      "beforeLines": 5,
+      "afterLines": 19,
+      "beforeMaxLine": 213,
+      "afterMaxLine": 90
+    }
+  ]
+}

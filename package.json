@@ -1,1 +1,24 @@
-{"name":"autocad-ai-mcp","version":"0.1.0","private":true,"type":"module","scripts":{"start":"node src/server.mjs","test":"node --test tests/*.test.mjs"},"dependencies":{"@modelcontextprotocol/sdk":"1.31.0","zod":"3.25.76"}}
+{
+  "name": "autocad-ai-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "format": "prettier --write \"src/**/*.{ts,mjs}\" \"scripts/**/*.mjs\" \"tests/**/*.{ts,mjs}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,mjs}\" \"scripts/**/*.mjs\" \"tests/**/*.{ts,mjs}\"",
+    "doctor": "node scripts/doctor.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.31.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  }
+}

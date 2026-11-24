@@ -1,5 +1,6 @@
 # AutoCAD Automation MCP + Skill
 
+> 源码审查与可复现说明：见 [2026-11-24 源码审查报告](docs/SOURCE-AUDIT.md)。本项目提供可读源码和本地构建流程，采用 [MIT 许可证](LICENSE)。
 **用 AI Agent 操作 AutoCAD，完成二维制图、三维建模、检查修改和文件交付。**
 
 你描述尺寸和结构，AI 制定建模计划，通过 MCP 调用本机 AutoCAD 的真实接口，创建可编辑的原生图形与实体，检查结果并保存 DWG、DXF、PDF、STL。
@@ -128,3 +129,7 @@ node scripts/acceptance-bracket.mjs
 | `examples` | 已生成的原生示例文件 |
 
 仓库不包含 AutoCAD 安装程序、许可证、账号信息、Python/Node 依赖目录或本机 Codex 配置。
+
+## 环境诊断
+
+运行 `npm run doctor -- "C:/Program Files/Autodesk/AutoCAD 2026"` 检查安装文件、Python/COM、.NET 8 SDK 和录屏工具。路径也可通过 `AICAD_AUTOCAD_DIR` 指定。该命令不会启动 AutoCAD，检查不通过返回非零退出码；旧版 AutoCAD 不能替代本项目的 2026 接口。当前测试机 2026 安装已缺失，详见本轮源码审查报告。
